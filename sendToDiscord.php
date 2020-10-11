@@ -71,8 +71,8 @@ Dilenirse yazı üzerine [bağlantı](http://google.com) verilebilir.";
 
 /** örnek kullanım */
 
-$gonderDiscord = new sendToDiscord();               // değişkene sınıf tanımlanır
-//$gonderDiscord->hookurl = "";                     // webhook url tanımlanır
-$gonderDiscord->message = "Merhaba Dünya";          // mesaj tanımlanır
-$gonderDiscord->username = "sendToDiscod".time();   // mesajda görünecek kullanıcı adı tanımlanır
-$gonderDiscord->run();                              // fonksiyon çalıştırılır
+$gonderDiscord = new sendToDiscord();                   // değişkene sınıf tanımlanır
+//$gonderDiscord->hookurl = "";                         // webhook url tanımlanır
+$gonderDiscord->message = "Merhaba Dünya";              // mesaj tanımlanır
+$gonderDiscord->username = "sendToDiscod.php".time();   // mesajda görünecek kullanıcı adı tanımlanır
+$gonderDiscord->run();                                  // fonksiyon çalıştırılır
